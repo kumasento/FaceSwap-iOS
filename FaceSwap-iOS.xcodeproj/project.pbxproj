@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC0F5B71B398CBC00D826C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0F5B61B398CBC00D826C5 /* AppDelegate.swift */; };
+		BFC0F5B91B398CBC00D826C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0F5B81B398CBC00D826C5 /* ViewController.swift */; };
+		BFC0F5BC1B398CBC00D826C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC0F5BA1B398CBC00D826C5 /* Main.storyboard */; };
+		BFC0F5BE1B398CBC00D826C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC0F5BD1B398CBC00D826C5 /* Images.xcassets */; };
+		BFC0F5C11B398CBC00D826C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC0F5BF1B398CBC00D826C5 /* LaunchScreen.xib */; };
+		BFC0F5CD1B398CBC00D826C5 /* FaceSwap_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0F5CC1B398CBC00D826C5 /* FaceSwap_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC0F5C71B398CBC00D826C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC0F5A91B398CBC00D826C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC0F5B01B398CBC00D826C5;
+			remoteInfo = "FaceSwap-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFC0F5B11B398CBC00D826C5 /* FaceSwap-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceSwap-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC0F5B51B398CBC00D826C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC0F5B61B398CBC00D826C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC0F5B81B398CBC00D826C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFC0F5BB1B398CBC00D826C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC0F5BD1B398CBC00D826C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFC0F5C01B398CBC00D826C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFC0F5C61B398CBC00D826C5 /* FaceSwap-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FaceSwap-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC0F5CB1B398CBC00D826C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC0F5CC1B398CBC00D826C5 /* FaceSwap_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSwap_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC0F5AE1B398CBC00D826C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0F5C31B398CBC00D826C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC0F5A81B398CBC00D826C5 = {
+			isa = PBXGroup;
+			children = (
+				BFC0F5B31B398CBC00D826C5 /* FaceSwap-iOS */,
+				BFC0F5C91B398CBC00D826C5 /* FaceSwap-iOSTests */,
+				BFC0F5B21B398CBC00D826C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC0F5B21B398CBC00D826C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0F5B11B398CBC00D826C5 /* FaceSwap-iOS.app */,
+				BFC0F5C61B398CBC00D826C5 /* FaceSwap-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC0F5B31B398CBC00D826C5 /* FaceSwap-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0F5B61B398CBC00D826C5 /* AppDelegate.swift */,
+				BFC0F5B81B398CBC00D826C5 /* ViewController.swift */,
+				BFC0F5BA1B398CBC00D826C5 /* Main.storyboard */,
+				BFC0F5BD1B398CBC00D826C5 /* Images.xcassets */,
+				BFC0F5BF1B398CBC00D826C5 /* LaunchScreen.xib */,
+				BFC0F5B41B398CBC00D826C5 /* Supporting Files */,
+			);
+			path = "FaceSwap-iOS";
+			sourceTree = "<group>";
+		};
+		BFC0F5B41B398CBC00D826C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0F5B51B398CBC00D826C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFC0F5C91B398CBC00D826C5 /* FaceSwap-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0F5CC1B398CBC00D826C5 /* FaceSwap_iOSTests.swift */,
+				BFC0F5CA1B398CBC00D826C5 /* Supporting Files */,
+			);
+			path = "FaceSwap-iOSTests";
+			sourceTree = "<group>";
+		};
+		BFC0F5CA1B398CBC00D826C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0F5CB1B398CBC00D826C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC0F5B01B398CBC00D826C5 /* FaceSwap-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC0F5D01B398CBC00D826C5 /* Build configuration list for PBXNativeTarget "FaceSwap-iOS" */;
+			buildPhases = (
+				BFC0F5AD1B398CBC00D826C5 /* Sources */,
+				BFC0F5AE1B398CBC00D826C5 /* Frameworks */,
+				BFC0F5AF1B398CBC00D826C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FaceSwap-iOS";
+			productName = "FaceSwap-iOS";
+			productReference = BFC0F5B11B398CBC00D826C5 /* FaceSwap-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC0F5C51B398CBC00D826C5 /* FaceSwap-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC0F5D31B398CBC00D826C5 /* Build configuration list for PBXNativeTarget "FaceSwap-iOSTests" */;
+			buildPhases = (
+				BFC0F5C21B398CBC00D826C5 /* Sources */,
+				BFC0F5C31B398CBC00D826C5 /* Frameworks */,
+				BFC0F5C41B398CBC00D826C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC0F5C81B398CBC00D826C5 /* PBXTargetDependency */,
+			);
+			name = "FaceSwap-iOSTests";
+			productName = "FaceSwap-iOSTests";
+			productReference = BFC0F5C61B398CBC00D826C5 /* FaceSwap-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC0F5A91B398CBC00D826C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Vincent Zhao";
+				TargetAttributes = {
+					BFC0F5B01B398CBC00D826C5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BFC0F5C51B398CBC00D826C5 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BFC0F5B01B398CBC00D826C5;
+					};
+				};
+			};
+			buildConfigurationList = BFC0F5AC1B398CBC00D826C5 /* Build configuration list for PBXProject "FaceSwap-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC0F5A81B398CBC00D826C5;
+			productRefGroup = BFC0F5B21B398CBC00D826C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC0F5B01B398CBC00D826C5 /* FaceSwap-iOS */,
+				BFC0F5C51B398CBC00D826C5 /* FaceSwap-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC0F5AF1B398CBC00D826C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0F5BC1B398CBC00D826C5 /* Main.storyboard in Resources */,
+				BFC0F5C11B398CBC00D826C5 /* LaunchScreen.xib in Resources */,
+				BFC0F5BE1B398CBC00D826C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0F5C41B398CBC00D826C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC0F5AD1B398CBC00D826C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0F5B91B398CBC00D826C5 /* ViewController.swift in Sources */,
+				BFC0F5B71B398CBC00D826C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0F5C21B398CBC00D826C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0F5CD1B398CBC00D826C5 /* FaceSwap_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC0F5C81B398CBC00D826C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC0F5B01B398CBC00D826C5 /* FaceSwap-iOS */;
+			targetProxy = BFC0F5C71B398CBC00D826C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFC0F5BA1B398CBC00D826C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC0F5BB1B398CBC00D826C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC0F5BF1B398CBC00D826C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC0F5C01B398CBC00D826C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC0F5CE1B398CBC00D826C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC0F5CF1B398CBC00D826C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC0F5D11B398CBC00D826C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FaceSwap-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFC0F5D21B398CBC00D826C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FaceSwap-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFC0F5D41B398CBC00D826C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FaceSwap-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceSwap-iOS.app/FaceSwap-iOS";
+			};
+			name = Debug;
+		};
+		BFC0F5D51B398CBC00D826C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FaceSwap-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceSwap-iOS.app/FaceSwap-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC0F5AC1B398CBC00D826C5 /* Build configuration list for PBXProject "FaceSwap-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0F5CE1B398CBC00D826C5 /* Debug */,
+				BFC0F5CF1B398CBC00D826C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC0F5D01B398CBC00D826C5 /* Build configuration list for PBXNativeTarget "FaceSwap-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0F5D11B398CBC00D826C5 /* Debug */,
+				BFC0F5D21B398CBC00D826C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFC0F5D31B398CBC00D826C5 /* Build configuration list for PBXNativeTarget "FaceSwap-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0F5D41B398CBC00D826C5 /* Debug */,
+				BFC0F5D51B398CBC00D826C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC0F5A91B398CBC00D826C5 /* Project object */;
+}
